@@ -1,0 +1,40 @@
+nav {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  min-width: 560px; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 10px;
+  font-family: "arial";
+  transition: all 0.2s ease;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 3px; }
+
+li:hover {
+  background-color: pink;
+  color: red; }
+
+.heart-shape {
+  width: 50%;
+  margin: 40px auto;
+  display: block;
+  text-align: center; }
+  .heart-shape .fa {
+    font-size: 20em;
+    color: red;
+    transition: all 0.2s ease;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; }
+    .heart-shape .fa:hover {
+      color: pink; }
+      .heart-shape .fa:hover:before {
+        text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; }
+
+/*# sourceMappingURL=styles.css.map */
