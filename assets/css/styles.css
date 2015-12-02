@@ -2,7 +2,9 @@ nav {
   display: inline-block;
   width: 100%;
   border-bottom: 2px solid #ccc;
-  text-align: center;
+  text-align: center; }
+
+body {
   min-width: 560px; }
 
 a {
